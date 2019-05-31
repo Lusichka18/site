@@ -1,0 +1,99 @@
+* {text-decoration: none;
+margin: 0
+padding: 0;}
+html{background-color: #a4edbe }
+
+#header{color: purple;}
+
+p.style {background-color: green;}
+
+h3.style{color: yellow}
+
+p i {color: #ca5597}
+
+p.Example, b{font-size: 50px
+font-weight: }
+p#Example:first-letter{color: red}
+p#Example:first-line{color: white}
+.href{color: #5f1a1a;}
+.href:hover{color: #1d5e19}
+
+.href:active{color: #2b4de3;}
+#textstyles{
+	font-size: 1.1em;
+	font-weight: normal;
+	font-family: comic sans ms, sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	line-height: 100%;
+
+}
+p{
+	text-indent: 1.1em
+}
+#testblock{
+	border: 2px inset silver;
+	width: 700px;
+	background-color: #f7f7f7;
+	margin: 19px 100px 10px 40px;
+	padding: 10px;
+	border-radius: 10px;
+	float: left;
+	position: relative;
+	box-shadow: inset 1px 1px green;
+}
+
+header{
+	width: calc(100%);
+	height: 50px;
+	background-color: #fff;
+	border-bottom: 2px solid silver;
+	padding: 10px;
+	font-size: 1.2em;
+	color: #333;
+	font-family: Comic Sans MS;
+	float: left;
+}
+footer{
+	width: calc(100%);
+	height: 50px;
+	margin: 20px;
+	background-color: #fff;
+	border-top: 2px solid silver;
+	padding: 10px;
+	font-size: 1.2em;
+	color: #333;
+	font-family: Comic Sans MS;
+	float: left;
+}
+article, aside{
+	background-color: #fafafa;
+	height: 400px;
+	border-radius: 5px;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	margin-top: 20px;
+	float: left;
+	padding: 10px;
+}
+article{
+	width: 60%;
+	margin-right: 5%;
+	margin-left: 5%;
+	
+}
+aside{
+	width: 25%;
+}
+aside ul{
+	list-style-position: inside;
+	list-style-type: square;
+}
+.spanblock{
+	display: block;
+	height: 30px;
+	width: 50px;
+	overflow: auto;
+	border: 1px solid red;
+}
